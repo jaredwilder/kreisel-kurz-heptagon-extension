@@ -69,7 +69,7 @@ point must lie in Q(sqrt 2002).
   certificate over 40,000 samples reporting maximum error 0.0.
 - `blades/` — the twenty-two exact-arithmetic programs that produced all of the above.
 
-## What is not claimed
+## Scope
 
 **Whether an integral octagon in general position exists is open.** This reduces the question; it
 does not answer it. The companion repository proves only that any such octagon has diameter greater
