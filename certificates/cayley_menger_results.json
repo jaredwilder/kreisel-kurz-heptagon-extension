@@ -1,0 +1,210 @@
+{
+  "blade": "cayley_menger",
+  "identity": "CM(4 integer-coordinate points) = 8 * det(edge vectors)^2   [CM = 288 V^2, V = |det|/6]",
+  "B1_minimal_basis": {
+    "claim": "CM-vanishing on quadruples containing a fixed nondegenerate triangle forces embedding dim <= 2",
+    "triple_basis_size_order": "O(n)  (quadruples containing fixed 3-point triangle)",
+    "edge_basis_size_order": "O(n^2) (quadruples containing fixed 2-point edge)",
+    "positive_class_all_agree": true,
+    "positive_class": [
+      {
+        "n": 5,
+        "gram_rank": 2,
+        "gram_embeds_plane": true,
+        "all_cm_vanish": true,
+        "routes_agree": true
+      },
+      {
+        "n": 6,
+        "gram_rank": 2,
+        "gram_embeds_plane": true,
+        "all_cm_vanish": true,
+        "routes_agree": true
+      },
+      {
+        "n": 4,
+        "gram_rank": 2,
+        "gram_embeds_plane": true,
+        "all_cm_vanish": true,
+        "routes_agree": true
+      }
+    ],
+    "counterexample": {
+      "note": "planar integral 5-set with the (3,4) squared distance tampered 2 -> 100",
+      "triangle_T": [
+        0,
+        1,
+        2
+      ],
+      "triangle_nondegenerate": true,
+      "triple_basis_satisfied": true,
+      "edge_basis_satisfied": false,
+      "actually_planar_all_cm_vanish": false,
+      "first_failing_quadruple": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "gram_rank": 4,
+      "gram_signature_pos_neg_zero": [
+        3,
+        1,
+        1
+      ],
+      "gram_is_psd_realizable": false,
+      "tampered_D2": [
+        [
+          0,
+          1,
+          1,
+          2,
+          8
+        ],
+        [
+          1,
+          0,
+          2,
+          1,
+          5
+        ],
+        [
+          1,
+          2,
+          0,
+          1,
+          5
+        ],
+        [
+          2,
+          1,
+          1,
+          0,
+          100
+        ],
+        [
+          8,
+          5,
+          5,
+          100,
+          0
+        ]
+      ]
+    },
+    "verdict_triple_basis_sufficient_for_ABSTRACT_metrics": false,
+    "verdict_triple_basis_sufficient_for_REALIZABLE_metrics": true,
+    "verdict_edge_basis_catches_this_counterexample": true,
+    "verdict": "TRIPLE basis (O(n)) is NOT sufficient for arbitrary distance matrices: it never constrains distances between two non-triangle points (here d_34), so that pair can be tampered to make a non-basis quadruple non-coplanar while every basis determinant stays zero. The resulting matrix is non-Euclidean (Gram not PSD: neg>0), so the triple basis IS sufficient once realizability (Gram PSD) is also required. The O(n^2) EDGE basis covers every pair (each pair {x,y} sits in quadruple {edge,x,y}) and CATCHES this counterexample -- it is the minimal-shape CM-only basis that forces planarity. This matches the operator's O(n^2) count: the sufficient CM basis is the fixed-EDGE basis, not the fixed-triple basis."
+  },
+  "B2_modular_obstructions": {
+    "identity": "CM(integer-coordinate tetrad) = 8 * det(edge vectors)^2",
+    "identity_holds_on_all_tested": true,
+    "tetrads_tested": 4000,
+    "coord_box": "p0=origin, p1,p2,p3 in {0..2}^3",
+    "planar_note": "A genuinely PLANAR integral quadruple has det=0 => CM=0 => residue 0 mod EVERY m. Hence CM != 0 (mod anything) certifies non-planarity; CM not in {8*square} certifies the tetrad is not integer-coordinate at all.",
+    "mod_tables": {
+      "8": {
+        "rule": "CM == 8 * (a square) mod m",
+        "achievable_residues": [
+          0
+        ],
+        "forbidden_residues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "observed_subset_of_theory": true,
+        "observed_residues": [
+          0
+        ]
+      },
+      "16": {
+        "rule": "CM == 8 * (a square) mod m",
+        "achievable_residues": [
+          0,
+          8
+        ],
+        "forbidden_residues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "observed_subset_of_theory": true,
+        "observed_residues": [
+          0,
+          8
+        ]
+      },
+      "3": {
+        "rule": "CM == 8 * (a square) mod m",
+        "achievable_residues": [
+          0,
+          2
+        ],
+        "forbidden_residues": [
+          1
+        ],
+        "observed_subset_of_theory": true,
+        "observed_residues": [
+          0,
+          2
+        ]
+      },
+      "5": {
+        "rule": "CM == 8 * (a square) mod m",
+        "achievable_residues": [
+          0,
+          2,
+          3
+        ],
+        "forbidden_residues": [
+          1,
+          4
+        ],
+        "observed_subset_of_theory": true,
+        "observed_residues": [
+          0,
+          2,
+          3
+        ]
+      },
+      "7": {
+        "rule": "CM == 8 * (a square) mod m",
+        "achievable_residues": [
+          0,
+          1,
+          2,
+          4
+        ],
+        "forbidden_residues": [
+          3,
+          5,
+          6
+        ],
+        "observed_subset_of_theory": true,
+        "observed_residues": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    },
+    "headline_2adic_obstruction": "CM == 0 (mod 8) ALWAYS; CM in {0,8} (mod 16) ONLY. Any tetrad with CM != 0 mod 8 has no integer-coordinate realization."
+  }
+}

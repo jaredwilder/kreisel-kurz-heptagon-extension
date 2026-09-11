@@ -1,0 +1,81 @@
+{
+  "blade": "heptagon_extend",
+  "arithmetic": "exact rational (fractions.Fraction) \u2014 zero float decisions",
+  "scope_note": "Extension search runs inside Q^2 (rational coordinates). 'None up to B' means: no rational-coordinate point at integer distance <= B from all of P. Bounded, computational.",
+  "configs": [
+    {
+      "config": "triangle_(0,0)(8,0)(4,3)",
+      "n_points": 3,
+      "points": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "4",
+          "3"
+        ]
+      ],
+      "verified_input": true,
+      "input_reason": "ok",
+      "bound_B": 20,
+      "n_extensions_found": 1,
+      "extensions": [
+        {
+          "X": [
+            "4",
+            "-3"
+          ],
+          "distances": [
+            5,
+            5,
+            6
+          ]
+        }
+      ],
+      "verdict": "EXTENDABLE within bound B=20"
+    },
+    {
+      "config": "quad_(0,0)(8,0)(4,3)(4,-3)",
+      "n_points": 4,
+      "points": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "8",
+          "0"
+        ],
+        [
+          "4",
+          "3"
+        ],
+        [
+          "4",
+          "-3"
+        ]
+      ],
+      "verified_input": true,
+      "input_reason": "ok",
+      "bound_B": 100,
+      "n_extensions_found": 0,
+      "extensions": [],
+      "verdict": "NO rational-coordinate extension with all new distances <= B=100 (BOUNDED/COMPUTATIONAL maximality; NOT an unconditional maximality claim)"
+    }
+  ],
+  "growth_from_quad": {
+    "bound_B": 200,
+    "grew": false,
+    "grown_set": null,
+    "note": "no rational integral 5th point found up to B=200 (bounded result)"
+  },
+  "kk_heptagon": {
+    "status": "PENDING REAL COORDINATES",
+    "reason": "Plugging the genuine Kreisel-Kurz minimal general-position integral heptagon into this engine requires its VERIFIED coordinates (normalized to P[0]=(0,0), P[1]=(a,0)). These are NOT fabricated here. Once supplied, run: verify_input(H) must pass, then extension_search(H, B) gives the bounded extension/maximality verdict for that heptagon."
+  }
+}

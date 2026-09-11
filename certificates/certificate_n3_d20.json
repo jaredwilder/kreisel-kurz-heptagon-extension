@@ -1,0 +1,37 @@
+{
+ "n": 3,
+ "dmax": 20,
+ "per_diameter": [
+  {
+   "d": 1,
+   "characteristics": [
+    {
+     "c": 3,
+     "n_candidates": 2,
+     "max_clique": 3
+    }
+   ],
+   "max_clique": 3
+  }
+ ],
+ "result": {
+  "min_diameter": 1,
+  "verified": true,
+  "d": 1,
+  "c": 3,
+  "witness": [
+   [
+    "0",
+    "0"
+   ],
+   [
+    "1",
+    "0"
+   ],
+   [
+    "1/2",
+    "-1/2"
+   ]
+  ]
+ }
+}

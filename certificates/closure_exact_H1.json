@@ -1,0 +1,14 @@
+{
+ "label": "H1",
+ "eps": 0.01,
+ "exact_cells": 2935632,
+ "solutions": [],
+ "nontrivial": [],
+ "seconds": 5.424387693405151,
+ "float_error_certificate": {
+  "samples": 40000,
+  "exact_roots_compared": 0,
+  "max_abs_error": 0.0,
+  "worst_at": null
+ }
+}

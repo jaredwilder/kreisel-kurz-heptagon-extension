@@ -1,0 +1,298 @@
+{
+ "n": 4,
+ "dmax": 20,
+ "per_diameter": [
+  {
+   "d": 1,
+   "characteristics": [
+    {
+     "c": 3,
+     "n_candidates": 2,
+     "max_clique": 3
+    }
+   ],
+   "max_clique": 3
+  },
+  {
+   "d": 2,
+   "characteristics": [
+    {
+     "c": 3,
+     "n_candidates": 2,
+     "max_clique": 3
+    },
+    {
+     "c": 15,
+     "n_candidates": 4,
+     "max_clique": 3
+    }
+   ],
+   "max_clique": 3
+  },
+  {
+   "d": 3,
+   "characteristics": [
+    {
+     "c": 2,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 3,
+     "n_candidates": 2,
+     "max_clique": 3
+    },
+    {
+     "c": 7,
+     "n_candidates": 2,
+     "max_clique": 3
+    },
+    {
+     "c": 35,
+     "n_candidates": 4,
+     "max_clique": 3
+    }
+   ],
+   "max_clique": 3
+  },
+  {
+   "d": 4,
+   "characteristics": [
+    {
+     "c": 3,
+     "n_candidates": 2,
+     "max_clique": 3
+    },
+    {
+     "c": 5,
+     "n_candidates": 2,
+     "max_clique": 3
+    },
+    {
+     "c": 7,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 15,
+     "n_candidates": 8,
+     "max_clique": 3
+    },
+    {
+     "c": 55,
+     "n_candidates": 4,
+     "max_clique": 3
+    }
+   ],
+   "max_clique": 3
+  },
+  {
+   "d": 5,
+   "characteristics": [
+    {
+     "c": 1,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 3,
+     "n_candidates": 2,
+     "max_clique": 3
+    },
+    {
+     "c": 6,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 11,
+     "n_candidates": 6,
+     "max_clique": 3
+    },
+    {
+     "c": 21,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 39,
+     "n_candidates": 2,
+     "max_clique": 3
+    },
+    {
+     "c": 91,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 231,
+     "n_candidates": 4,
+     "max_clique": 3
+    }
+   ],
+   "max_clique": 3
+  },
+  {
+   "d": 6,
+   "characteristics": [
+    {
+     "c": 1,
+     "n_candidates": 2,
+     "max_clique": 3
+    },
+    {
+     "c": 2,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 3,
+     "n_candidates": 2,
+     "max_clique": 3
+    },
+    {
+     "c": 7,
+     "n_candidates": 6,
+     "max_clique": 3
+    },
+    {
+     "c": 14,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 15,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 35,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 39,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 119,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 143,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 455,
+     "n_candidates": 4,
+     "max_clique": 3
+    }
+   ],
+   "max_clique": 3
+  },
+  {
+   "d": 7,
+   "characteristics": [
+    {
+     "c": 3,
+     "n_candidates": 10,
+     "max_clique": 3
+    },
+    {
+     "c": 5,
+     "n_candidates": 8,
+     "max_clique": 3
+    },
+    {
+     "c": 6,
+     "n_candidates": 8,
+     "max_clique": 3
+    },
+    {
+     "c": 10,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 15,
+     "n_candidates": 2,
+     "max_clique": 3
+    },
+    {
+     "c": 19,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 51,
+     "n_candidates": 2,
+     "max_clique": 3
+    },
+    {
+     "c": 55,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 95,
+     "n_candidates": 2,
+     "max_clique": 3
+    },
+    {
+     "c": 187,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 195,
+     "n_candidates": 4,
+     "max_clique": 3
+    },
+    {
+     "c": 255,
+     "n_candidates": 4,
+     "max_clique": 3
+    }
+   ],
+   "max_clique": 3
+  },
+  {
+   "d": 8,
+   "characteristics": [
+    {
+     "c": 1,
+     "n_candidates": 2,
+     "max_clique": 4
+    }
+   ],
+   "max_clique": 4
+  }
+ ],
+ "result": {
+  "min_diameter": 8,
+  "verified": true,
+  "d": 8,
+  "c": 1,
+  "witness": [
+   [
+    "0",
+    "0"
+   ],
+   [
+    "8",
+    "0"
+   ],
+   [
+    "4",
+    "-3"
+   ],
+   [
+    "4",
+    "3"
+   ]
+  ]
+ }
+}
