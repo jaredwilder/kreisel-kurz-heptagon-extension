@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it."
+title: "Kreisel-Kurz heptagons and the integral-octagon extension problem"
+authors:
+  - family-names: "Wilder"
+    given-names: "Jared"
+type: software
+repository-code: "https://github.com/jaredwilder/kreisel-kurz-heptagon-extension"
+license: Apache-2.0
